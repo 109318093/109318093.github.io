@@ -8,7 +8,7 @@ const gameId = '21779'
 const language = 'zh'
 const topGameSearchUrl = 'https://api.twitch.tv/helix/games/top'
 // first 默認20 max:100
-const channelSearchUrl = 'https://api.twitch.tv/helix/streams?first=20&game_id=' + gameId + '&language=' + language
+const channelSearchUrl = 'https://api.twitch.tv/helix/streams?first=21&game_id=' + gameId + '&language=' + language
 
 /*
 let xhr = new XMLHttpRequest();
