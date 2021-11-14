@@ -1,0 +1,122 @@
+body {
+    background: url("../image/bg-default.jpg") no-repeat center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+.introduction {
+    width: 15%;
+    background-color: seashell;
+}
+
+.top-streamers {
+    display: flex;    
+}
+
+hr {
+    margin: 2px;    
+}
+
+.row {    
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.col {
+    background-color: rgba(11, 11, 11, 0.5);
+    width: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s;        
+}
+
+/* 當滑鼠移動到容器上面的時候才會動作 */
+.col:hover {
+    /* 改變滑鼠游標狀況 */
+    cursor: pointer;    
+    /* 新增陰影 */
+    box-shadow: -4px 4px 0px 1px rgba(145, 71, 255, 1);
+    /* translate3d元素3D位移 */
+    transform: translate3d(0.6rem, -0.6rem, 0px);
+}
+
+.title {
+    padding: 1rem !important;
+}
+
+.preview {        
+    height: 170px;
+}
+
+.preview img{    
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    color: white;
+}
+
+.channelInfo {    
+    padding: 10px;    
+    position: static;
+    display: flex;
+}
+
+.buttom {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;    
+    position: static;
+    display: flex;
+}
+
+.streamer_photo {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 500px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
